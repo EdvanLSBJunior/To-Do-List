@@ -6,9 +6,9 @@ const addTaskText = document.querySelector("#add-task-text");
 
 const liElement = (task) =>
   `<li class="task ${task.done ? "done" : ""}" id="task_${task.id}">
-    <input type="checkbox" id="check_${task.id}" ${task.done ? "checked" : ""}>
+    <input type="checkbox" class="checkbox" id="check_${task.id}" ${task.done ? "checked" : ""}>
     <span>${task.description}</span>
-    <button id="delete_${task.id}">x</button>
+    <button class="deletar" id="delete_${task.id}">x</button>
   </li>`;
 
 const updateTask = (task) => {

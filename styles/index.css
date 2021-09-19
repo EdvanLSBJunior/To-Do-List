@@ -1,2 +1,43 @@
-.task {}
+body {
+    background-color: rgb(196, 233, 255);
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card-principal {
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    border: 1px solid;
+    background-color: rgb(187, 101, 175);
+    border-radius: 5px;
+    margin-left: 36%;
+
+}
+
+.checkbox {
+    background-color: transparent;
+    border-radius: 4px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.deletar {
+    float: right;
+    border-radius: 5px;
+}
+
+.task {
+    margin: 05px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .task.done{text-decoration: line-through}

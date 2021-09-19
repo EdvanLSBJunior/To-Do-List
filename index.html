@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/js/bootstrap.min.js" integrity="sha512-ewfXo9Gq53e1q1+WDTjaHAGZ8UvCWq0eXONhwDuIoaH8xz2r96uoAYaQCm1oQhnBfRXrvJztNXFsTloJfgbL5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="styles/index.css" />
     <script src="js/tasks.js" defer></script>
-    <title>todo</title>
+    <title>To-do-App</title>
   </head>
   <body>
-    <h1>todo</h1>
-    <form id="add-task">
-      <input type="text" name="" id="add-task-text" />
-      <input type="submit" value="adicionar" />
-    </form>
-    <ul id="task-list"></ul>
+      <h1>Lista de Afazeres</h1>
+      <div class="card-principal">
+        <form id="add-task">
+          <input type="text" name="" id="add-task-text" />
+          <input type="submit" value="adicionar" />
+        </form>
+        <ul id="task-list"></ul>
+    </div>
   </body>
 </html>
